@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"Fun with Akki n Abhi!"</title>
+        <link rel="stylesheet" href="myW.css">
+        <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="nav-dropdown-click">
+                <li><a href="myWebsite.html">Home</a></li>
+                <li><a href="Science.html">Science</a></li>
+                <li><a href="Math.html">Math</a></li>
+                <li><a href="English.html">English</a></li>
+                <li><a href="Social.html">Social</a></li>
+                <li class="topnav-right"><a href="signup#">Sign Up</a></li>
+                <li class="topnav-right"><a href="signin#">Sign In</a></li>
+                <li class="hamburger-menu" onclick="dropDownMenu()"><a href="javascript:void(0)" >&#9776;</a></li>
+            </ul>
+        </nav>
+
+        <!--
+<div class="topheader">
+<h1>Hey Akki and Abhi, are you ready for some fun!?!</h1>
+</div>
+-->
+
+        <div class="container" id="section-1-gradient">
+            <div class="row">
+                <div class="col-6">
+                    <div class="leftSide-col">
+                        <h1 class="large">Hey Akki and Abhi,</h1>
+                        <h1 class="large">Ready for some fun!?!</h1>
+                    </div>
+                    <form>
+                        <div class="leftSide-col">
+                            <h2>Username</h2>
+                            <input class="inputbox" type=text placeholder="Username">
+                            <h2>Password</h2> 
+                            <input class="inputbox" type=text placeholder="Password">
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col-6">
+                    <div class="rightSide-col">
+                        <div class="videoContainer">
+                            <iframe width="320" height="180"
+                                    src="Akki.mp4" frameborder=0 allowfullscreen>
+
+                            </iframe>
+                        </div>
+                        <!--
+<video width="320" height="240" controls>
+<source src="Akki.mp4" type="video/mp4">
+</video>
+-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+            <h1 class="section-2-header">CHOOSE THE SUBJECT BELOW</h1>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="English.jpg">
+                        </div>
+                        <label>Click here for English</label>
+                        <p>This is a test paragraph</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="Math.jpg">
+                        </div>
+                        <label>Click here for Math</label>
+                        <p>This is a test paragraph</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="Science.jpg">
+                        </div>
+                        <label>Click here for Science</label>
+                        <p>This is a test paragraph</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="learnMore">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-7">
+                    <article>
+                        <p>“Yes: I am a dreamer. For a dreamer is one who can only find his way by moonlight, and his punishment is that he sees the dawn before the rest of the world.”</p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="socialIcon">
+                        <img src="Social.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="row">
+                <div class="col-3 foot">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Dont know</li>
+                        <li>Wont Click</li>
+                    </ul>
+                </div>  
+                <div class="col-3" foot>
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Dont know</li>
+                        <li>Wont Click</li>
+                    </ul>
+                </div>
+                <div class="col-3 foot">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Dont know</li>
+                        <li>Wont Click</li>
+                    </ul>
+                </div>
+                <div class="col-3 foot">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Dont know</li>
+                        <li>Wont Click</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!--
+<div class="row">
+<div class="col-1">
+<a href="Science.html"><img src="Science.jpg" height="200" width="400"></a></div>
+<div class="col-2">
+<a href="Math.html"><img src="Math.jpg" height="200" width="400"></a>
+</div></div>
+
+<div class="row">
+<div class="col-1">
+<a href="English.html"><img src="English.jpg" height="200" width="400"></a></div>
+
+<div class="col-2">
+
+<a href="Social.html"><img src="Social.jpg" height="200" width="400"></a></div>
+</div>
+-->
+
+        <script>
+            function dropDownMenu(){
+                var x = document.getElementById("nav-dropdown-click");
+                if(x.className == "topnav"){
+                    x.className += " responsive";
+                }
+
+            }</script>
+    </body>
+</html>
